@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-nav">
+        <div class="nav-left">
+            <button id="btn-add-root" title="Add Library Folder">+</button>
+            <button id="btn-clear-roots" title="Clear Libraries">🗑️</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Search all libraries...">
+        <div class="logo-area">
+            <img src="assets/KIREL.png" class="kirel-logo">
+            <span class="made-by"></span>
+        </div>
+    </div>
+
+    <div class="main-layout">
+        <div id="sidebar">
+            <div class="side-item active" id="f-all">ALL LIBRARIES</div>
+            <div class="side-item" id="f-fav">⭐ FAVORITES</div>
+            <div class="divider"></div>
+            <div id="tree-container"></div> <!-- Dynamic folders go here -->
+        </div>
+
+        <div id="resizer"></div>
+
+        <div id="content-area">
+            <div id="file-list"></div>
+        </div>
+    </div>
+
+    <div class="footer-player">
+        <div id="waveform"></div>
+        <div class="player-controls">
+            <div class="vol-hit-area">
+                <div class="vol-wrapper">
+                    <span class="vol-icon">🔈</span>
+                    <input type="range" id="vol-slider" min="0" max="1" step="0.05" value="0.8">
+                </div>
+            </div>
+            
+            <div class="playback-btns">
+                <button id="btn-play-pause">▶</button>
+                <button id="btn-stop">■</button>
+            </div>
+
+            <div id="current-name">Select sound</div>
+            <button id="btn-import-big">IMPORT</button>
+        </div>
+    </div>
+
+    <script src="lib/CSInterface.js"></script>
+    <script src="lib/wavesurfer.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
