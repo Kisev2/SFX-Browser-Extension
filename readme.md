@@ -1,6 +1,6 @@
 # 🎧 SFX Browser Extension for After Effects
 
-A sleek, lightweight companion for Adobe After Effects that lets you **preview sound effects instantly** — without ever leaving AE.
+A sleek, lightweight companion for Adobe After Effects that lets you **preview sound effects instantly** without ever leaving AE.
 
 Built for **AMV editors**, motion designers, and creators who need speed, precision, and flow.
 
@@ -18,11 +18,6 @@ Built for **AMV editors**, motion designers, and creators who need speed, precis
 
 - 🎬 **Made for AMVs**
   - Quickly find the perfect hit, whoosh, or impact
-  - Designed for fast-paced anime/music edits
-
-- 🎧 **Dual Preview Modes**
-  - ▶️ **Single Preview** – Play one sound instantly  
-  - 🔁 **Continuous Preview** – Quickly cycle through multiple SFX
 
 - 🚀 **Workflow Boost**
   - Stay inside After Effects at all times
